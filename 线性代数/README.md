@@ -259,7 +259,7 @@
 
 正交阵的定义：
 
-![](http://latex.codecogs.com/gif.latex?\\AA^{T}=A^{T}A=E)
+![](http://latex.codecogs.com/gif.latex?\\(AA^{T})=A^{T}A=E)
 
 矩阵是正交阵的充要条件：
 * 转置 = 逆
