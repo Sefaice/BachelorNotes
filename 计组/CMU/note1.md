@@ -76,7 +76,7 @@ C中除法实现：对于无符号数采用移位除法是正确的，但是对�
 
 #### Byte Ordering
 
-Big Endian：大端模式，Least significant byte has highest address，即最低位**字节**放在最后，也就是最高地址。Little Endian小端模式，相反。
+Big Endian：大端模式，Least significant byte has highest address，即最低位**字节**放在最后，也就是最高地址，符合正常阅读顺序。Little Endian小端模式，相反，最低位字节先存放。
 
 #### Representing Strings
 
