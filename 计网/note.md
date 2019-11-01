@@ -8,7 +8,7 @@ process delay，transmission delay，propagation delay，queuing delay
 
 sockets
 
-HTTP：cookies，有连接和无连接
+HTTP：cookies，持续和非持续
 
 FTP：两个TCP连接
 
