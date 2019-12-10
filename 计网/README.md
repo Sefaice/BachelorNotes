@@ -544,7 +544,7 @@ NAT网络地址转换：将<私有地址 : 端口>与<公有地址 : 端口>进�
 
 #### ICMP协议
 
-**网际控制报文协议(Internet Control Message Protocol, IMP)**用于报告差错和异常，是**网络层协议**。
+**网际控制报文协议(Internet Control Message Protocol, ICMP)**用于报告差错和异常，是**网络层协议**。
 
 ICMP报文有两种：
 * ICMP差错报文：路径上的结点向源主机报告差错和异常
@@ -864,7 +864,7 @@ HTTP：**基于TCP**，端口号80。虽然基于TCP，但HTTP是无连接，无
   * 介质访问控制协议：ALOHA, CSMA, CSMA/CD, CSMA/CA
   * 广域网的控制协议：PPP, HDLC
   * STP：交换机避免广播风暴
-* 网络层协议：
+* 网络层协议（除IP外都是基于IP的）：
   * IP
   * ICMP
   * IGMP：组播管理

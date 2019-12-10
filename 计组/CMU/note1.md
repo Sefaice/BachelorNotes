@@ -34,6 +34,8 @@ casting规则：
 
 二进制数字不变，解释规则改变，若同时有unsigned int，将int解释为unsigned int。
 
+若从段类型转换为长类型，不会丢失信息，比如unsigned short转换为int，结果真值仍是一个正数。
+
 #### Expanding & Truncating
 
 有符号数扩展，左扩展位全部填充符号位。
@@ -79,6 +81,8 @@ C中除法实现：对于无符号数采用移位除法是正确的，但是对�
 #### Byte Ordering
 
 Big Endian：大端模式，Least significant byte has highest address，即最低位**字节**放在最后，也就是最高地址，符合正常阅读顺序。Little Endian小端模式，相反，最低位字节先存放。
+
+大端模式和小端模式影响的是一个变量内部的排序，比如一个指令中，指令依然是操作码在前，操作数在后，大端小端影响的是操作数内部的排序。
 
 #### Representing Strings
 
