@@ -249,6 +249,8 @@ A表示形式地址，EA指有效地址，(EA)指有效地址的值，即操作�
 
 ### CISC & RISC
 
+[stanford](https://cs.stanford.edu/people/eroberts/courses/soco/projects/risc/risccisc/)
+
 CISC：X86；指令数目多；长度不固定；访存指令不受限制；大多指令需要多个周期执行；大多采用微程序控制；边界对齐不对齐都支持。
 
 RISC：ARM、MIPS架构；指令少；长度固定；只有Load/Store指令可以访存，其余指令操作在寄存器间进行，CPU中通用寄存器相当多，以减少访存次数；**一定采用指令流水线技术**，大部分指令在一个周期完成；以硬布线控制为主；边界对齐。
