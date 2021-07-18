@@ -52,6 +52,8 @@ union共同体的所有成员共用同一段内存，大小为最长的成员大
 
 ![memory-layout](./imgs/09-memory-layout.PNG)
 
+malloc分配的变量放在heap中，而指向这个变量的指针放在stack中。
+
 #### Buffer Overflow
 
 栈溢出，代码注入攻击就是利用这一点，将可执行代码通过字符串放入栈中执行。
